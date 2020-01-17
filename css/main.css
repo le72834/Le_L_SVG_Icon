@@ -6,3 +6,24 @@
 .img-wrapper img {
   width: 100%;
 }
+.black-bg {
+  background-color: black;
+}
+
+/* change the SVG graphic artwork with CSS */
+#lGrain:hover, #rGrain:hover {
+  fill: blue;
+}
+
+#beerGraphic:hover #lGrain {
+  fill: pink;
+}
+#beerGraphic:hover #rGrain {
+  fill: pink;
+}
+#beerGraphic:hover #lStar {
+  fill: red;
+}
+#beerGraphic:hover #rStar {
+  fill: pink;
+}
